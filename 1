@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string line;
+            line = Console.ReadLine();
+            int m = Convert.ToInt32(line);
+            if(m>0)
+            {
+                Console.WriteLine(3 * m);
+            }
+            else
+            {
+                Console.WriteLine(0);
+            }
+            Console.ReadKey();
+        }
+    }
+}
